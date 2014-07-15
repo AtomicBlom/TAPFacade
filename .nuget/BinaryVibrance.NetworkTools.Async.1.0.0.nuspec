@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>BinaryVibrance.NetworkTools.Async</id>
+        <version>1.0.0</version>
+        <title>Async Network Tools</title>
+        <authors>Steven Blom</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Creates wrappers around TAP based Asynchronous contracts to support APM based Asynchrony.</description>
+        <summary>Share contracts between backend, .NET clients and Silverlight clients.</summary>
+        <language>en-AU</language>
+        <tags>async silverlight</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System.ServiceModel" targetFramework="" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="..\BVNetworkTools.Async\bin\Debug\BinaryVibrance.NetworkTools.Async.dll" target="lib\net40\BinaryVibrance.NetworkTools.Async.dll" />
+        <file src="..\BVNetworkTools.Async\bin\Debug\BinaryVibrance.NetworkTools.Async.dll.config" target="lib\net40\BinaryVibrance.NetworkTools.Async.dll.config" />
+        <file src="..\BVNetworkTools.Async\bin\Debug\BinaryVibrance.NetworkTools.Async.pdb" target="lib\net40\BinaryVibrance.NetworkTools.Async.pdb" />
+        <file src="..\BVNetworkTools.Async\bin\Debug\BinaryVibrance.NetworkTools.Async.XML" target="lib\net40\BinaryVibrance.NetworkTools.Async.XML" />
+        <file src="..\BVNetworkTools.Async.SL\Bin\Debug\BinaryVibrance.NetworkTools.Async.dll" target="lib\sl40\BinaryVibrance.NetworkTools.Async.dll" />
+        <file src="..\BVNetworkTools.Async.SL\Bin\Debug\BinaryVibrance.NetworkTools.Async.pdb" target="lib\sl40\BinaryVibrance.NetworkTools.Async.pdb" />
+        <file src="..\BVNetworkTools.Async.SL\Bin\Debug\BinaryVibrance.NetworkTools.Async.XML" target="lib\sl40\BinaryVibrance.NetworkTools.Async.XML" />
+        <file src="src\_._" target="src\_._" />
+    </files>
+</package>
