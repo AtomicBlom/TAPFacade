@@ -110,7 +110,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BVNetworkTools.Async\BinaryVibrance.TAPFacade.csproj">
+    <ProjectReference Include="..\BinaryVibrance.TAPFacade\BinaryVibrance.TAPFacade.csproj">
       <Project>{264A9F93-8DA5-4BC1-A866-B9D840D50490}</Project>
       <Name>BinaryVibrance.TAPFacade</Name>
     </ProjectReference>

@@ -100,40 +100,40 @@
     <Reference Include="System.Windows.Browser" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\BVNetworkTools.Async\ApmInterfaceCreator.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\ApmInterfaceCreator.cs">
       <Link>ApmInterfaceCreator.cs</Link>
     </Compile>
-    <Compile Include="..\BVNetworkTools.Async\AttributeDuplicator\FaultContractAttributeDuplicator.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\AttributeDuplicator\FaultContractAttributeDuplicator.cs">
       <Link>AttributeDuplicator\FaultContractAttributeDuplicator.cs</Link>
     </Compile>
-    <Compile Include="..\BVNetworkTools.Async\AttributeDuplicator\IAttributeDuplicator.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\AttributeDuplicator\IAttributeDuplicator.cs">
       <Link>AttributeDuplicator\IAttributeDuplicator.cs</Link>
     </Compile>
-    <Compile Include="..\BVNetworkTools.Async\AttributeDuplicator\OperationContractAttributeDuplicator.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\AttributeDuplicator\OperationContractAttributeDuplicator.cs">
       <Link>AttributeDuplicator\OperationContractAttributeDuplicator.cs</Link>
     </Compile>
-    <Compile Include="..\BVNetworkTools.Async\AttributeDuplicator\ServiceKnownTypeAttributeDuplicator.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\AttributeDuplicator\ServiceKnownTypeAttributeDuplicator.cs">
       <Link>AttributeDuplicator\ServiceKnownTypeAttributeDuplicator.cs</Link>
     </Compile>
-    <Compile Include="..\BVNetworkTools.Async\CommonTypes.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\CommonTypes.cs">
       <Link>CommonTypes.cs</Link>
     </Compile>
-    <Compile Include="..\BVNetworkTools.Async\DynamicTypeCache.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\DynamicTypeCache.cs">
       <Link>DynamicTypeCache.cs</Link>
     </Compile>
-    <Compile Include="..\BVNetworkTools.Async\IWCFChannelProvider.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\IWCFChannelProvider.cs">
       <Link>IWCFChannelProvider.cs</Link>
     </Compile>
-    <Compile Include="..\BVNetworkTools.Async\Model.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\Model.cs">
       <Link>Model.cs</Link>
     </Compile>
-    <Compile Include="..\BVNetworkTools.Async\TAPFacade.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\TAPFacade.cs">
       <Link>TAPFacade.cs</Link>
     </Compile>
-    <Compile Include="..\BVNetworkTools.Async\TAPFacadeConfiguration.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\TAPFacadeConfiguration.cs">
       <Link>TAPFacadeConfiguration.cs</Link>
     </Compile>
-    <Compile Include="..\BVNetworkTools.Async\TAPFacadeCreator.cs">
+    <Compile Include="..\BinaryVibrance.TAPFacade\TAPFacadeCreator.cs">
       <Link>TAPFacadeCreator.cs</Link>
     </Compile>
     <Compile Include="AttributeDuplicator\ServiceContractAttributeDuplicator.cs" />

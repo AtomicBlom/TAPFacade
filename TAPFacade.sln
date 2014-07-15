@@ -11,11 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AFFAE3
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryVibrance.TAPFacade", "BVNetworkTools.Async\BinaryVibrance.TAPFacade.csproj", "{264A9F93-8DA5-4BC1-A866-B9D840D50490}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryVibrance.TAPFacade", "BinaryVibrance.TAPFacade\BinaryVibrance.TAPFacade.csproj", "{264A9F93-8DA5-4BC1-A866-B9D840D50490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryVibrance.TAPFacade.SL", "BVNetworkTools.Async.SL\BinaryVibrance.TAPFacade.SL.csproj", "{208013B5-F256-492E-A0F0-CAC4DD51CB5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryVibrance.TAPFacade.SL", "BinaryVibrance.TAPFacade.SL\BinaryVibrance.TAPFacade.SL.csproj", "{208013B5-F256-492E-A0F0-CAC4DD51CB5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryVibrance.TAPFacade.Test", "BVNetworkTools.Async.Test\BinaryVibrance.TAPFacade.Test.csproj", "{4A9F0856-0D17-431D-8197-EBF1BD5C9A77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryVibrance.TAPFacade.Test", "BinaryVibrance.TAPFacade.Test\BinaryVibrance.TAPFacade.Test.csproj", "{4A9F0856-0D17-431D-8197-EBF1BD5C9A77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
