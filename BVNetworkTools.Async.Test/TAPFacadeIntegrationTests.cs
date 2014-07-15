@@ -1,11 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.ServiceModel;
-using BVNetworkTools.Async.Test.Model;
-using BinaryVibrance.NetworkTools.Async;
+using BinaryVibrance.TAPFacade.Test.Model;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace BVNetworkTools.Async.Test
+namespace BinaryVibrance.TAPFacade.Test
 {
 	[TestClass]
 	public class TAPFacadeIntegrationTests

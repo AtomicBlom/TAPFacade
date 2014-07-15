@@ -7,7 +7,7 @@ using System.Reflection.Emit;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-namespace BinaryVibrance.NetworkTools.Async
+namespace BinaryVibrance.TAPFacade
 {
 	internal class TAPFacadeCreator<TContract>
 	{

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace BinaryVibrance.NetworkTools.Async
+namespace BinaryVibrance.TAPFacade
 {
 	internal static class DynamicTypeCache
 	{

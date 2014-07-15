@@ -5,11 +5,10 @@ using System.Reflection.Emit;
 using System.ServiceModel;
 using System.ServiceModel.Description;
 using System.Threading;
-using BVNetworkTools.Async.Test.Model;
-using BinaryVibrance.NetworkTools.Async;
+using BinaryVibrance.TAPFacade.Test.Model;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace BVNetworkTools.Async.Test
+namespace BinaryVibrance.TAPFacade.Test
 {
 	[TestClass]
 	public class TAPFacadeCreatorIntegrationTests

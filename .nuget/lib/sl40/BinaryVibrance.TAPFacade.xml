@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BinaryVibrance.TAPFacade</name>
+    </assembly>
+    <members>
+        <member name="T:BinaryVibrance.TAPFacade.AttributeDuplicator.IAttributeDuplicator`1">
+            <summary>
+            Duplicates an attribute, attempting to match the Constructor, Properties and Fields of the original Attribute.
+            
+            Used in lieu of GetCustomAttributesData() missing in Silverlight.
+            </summary>
+            <typeparam name="TAttribute">The type of the attribute being duplicated</typeparam>
+        </member>
+        <member name="T:BinaryVibrance.TAPFacade.AttributeDuplicator.IAttributeDuplicator">
+            <summary>
+            A Marker interface for the generic IAttributeDuplicator. Do not implement this.
+            </summary>
+        </member>
+        <member name="M:BinaryVibrance.TAPFacade.AttributeDuplicator.IAttributeDuplicator`1.GetCustomAttributeBuilder(System.Reflection.MemberInfo,`0)">
+            <summary>
+            Creates a CustomAttributeBuilder that represents a copy of the attribute provided.
+            </summary>
+            <param name="attachedMember">The Class, Method or Property that the attribute is being copied from</param>
+            <param name="attribute">The attribute being copied</param>
+            <returns>The CustomAttributeBuilder that represents the copy</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:BinaryVibrance.TAPFacade.IWCFChannelProvider" -->
+        <member name="M:BinaryVibrance.TAPFacade.IWCFChannelProvider.BuildWCFChannel(System.Type,System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)">
+            <summary>
+            Builds the WCF Channel
+            </summary>
+            <param name="apmInterface">The Asynchronous Programming Model based interface to wrap</param>
+            <param name="binding">The binding to use</param>
+            <param name="endpoint">The Endpoint to connect to</param>
+            <returns>The created channel</returns>
+        </member>
+        <member name="T:BinaryVibrance.TAPFacade.TAPFacade`1">
+            <summary>
+            Enabled TAP based WCF services
+            </summary>
+            <typeparam name="TContract">The TAP Contract</typeparam>
+        </member>
+        <member name="M:BinaryVibrance.TAPFacade.TAPFacade`1.Create(System.ServiceModel.Channels.Binding,System.ServiceModel.EndpointAddress)">
+            <summary>
+            Creates a APM contract, then builds a WCF Channel around it, and finally wraps it all with a TAP compatible facade
+            </summary>
+            <param name="binding">The Binding to use</param>
+            <param name="endpoint">The Endpoint to communicate with</param>
+            <returns>The TAP Facade to the built service</returns>
+        </member>
+        <member name="T:BinaryVibrance.TAPFacade.TAPFacadeConfiguration">
+            <summary>
+            Provides Configuration for the AsyncFactory
+            </summary>
+        </member>
+        <member name="M:BinaryVibrance.TAPFacade.TAPFacadeConfiguration.AddAttributeHandler``1">
+            <summary>
+            Adds an Attribute Duplicator to the registry
+            </summary>
+            <typeparam name="T">The type of the Duplicator</typeparam>
+        </member>
+        <member name="M:BinaryVibrance.TAPFacade.TAPFacadeConfiguration.AddAttributeHandler(BinaryVibrance.TAPFacade.AttributeDuplicator.IAttributeDuplicator)">
+            <summary>
+            Adds an instance of a Attribute Duplicator to the registry
+            </summary>
+            <param name="duplicator">An instance of a duplicator</param>
+        </member>
+        <member name="M:BinaryVibrance.TAPFacade.TAPFacadeConfiguration.SetWCFChannelProvider(BinaryVibrance.TAPFacade.IWCFChannelProvider)">
+            <summary>
+            Provides an alternative WCF Channel Provider
+            </summary>
+            <param name="wcfChannelProvider">The alternative provider</param>
+        </member>
+    </members>
+</doc>

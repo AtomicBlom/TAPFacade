@@ -3,7 +3,7 @@ using System.Reflection;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
 
-namespace BinaryVibrance.NetworkTools.Async
+namespace BinaryVibrance.TAPFacade
 {
 	internal class DefaultWCFChannelProvider : IWCFChannelProvider
 	{

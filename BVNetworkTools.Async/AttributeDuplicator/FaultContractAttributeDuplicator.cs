@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Reflection.Emit;
 using System.ServiceModel;
 
-namespace BinaryVibrance.NetworkTools.Async.AttributeDuplicator
+namespace BinaryVibrance.TAPFacade.AttributeDuplicator
 {
     internal class FaultContractAttributeDuplicator : IAttributeDuplicator<FaultContractAttribute>
     {

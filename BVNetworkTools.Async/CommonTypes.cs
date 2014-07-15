@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using Microsoft.Runtime.CompilerServices;
 
-namespace BinaryVibrance.NetworkTools.Async
+namespace BinaryVibrance.TAPFacade
 {
 	internal class CommonTypes
 	{

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using BinaryVibrance.NetworkTools.Async.AttributeDuplicator;
+using BinaryVibrance.TAPFacade.AttributeDuplicator;
 
-namespace BinaryVibrance.NetworkTools.Async
+namespace BinaryVibrance.TAPFacade
 {
 	/// <summary>
 	/// Provides Configuration for the AsyncFactory

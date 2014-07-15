@@ -5,17 +5,17 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{AFFAE37A-AA8D-4015-B0D4-805CFCF6D9FE}"
 	ProjectSection(SolutionItems) = preProject
-		.nuget\BinaryVibrance.NetworkTools.Async.1.0.0.nuspec = .nuget\BinaryVibrance.NetworkTools.Async.1.0.0.nuspec
+		.nuget\BinaryVibrance.TAPFacade.1.0.0.nuspec = .nuget\BinaryVibrance.TAPFacade.1.0.0.nuspec
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BVNetworkTools.Async", "BVNetworkTools.Async\BVNetworkTools.Async.csproj", "{264A9F93-8DA5-4BC1-A866-B9D840D50490}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryVibrance.TAPFacade", "BVNetworkTools.Async\BinaryVibrance.TAPFacade.csproj", "{264A9F93-8DA5-4BC1-A866-B9D840D50490}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BVNetworkTools.Async.SL", "BVNetworkTools.Async.SL\BVNetworkTools.Async.SL.csproj", "{208013B5-F256-492E-A0F0-CAC4DD51CB5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryVibrance.TAPFacade.SL", "BVNetworkTools.Async.SL\BinaryVibrance.TAPFacade.SL.csproj", "{208013B5-F256-492E-A0F0-CAC4DD51CB5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BVNetworkTools.Async.Test", "BVNetworkTools.Async.Test\BVNetworkTools.Async.Test.csproj", "{4A9F0856-0D17-431D-8197-EBF1BD5C9A77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryVibrance.TAPFacade.Test", "BVNetworkTools.Async.Test\BinaryVibrance.TAPFacade.Test.csproj", "{4A9F0856-0D17-431D-8197-EBF1BD5C9A77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

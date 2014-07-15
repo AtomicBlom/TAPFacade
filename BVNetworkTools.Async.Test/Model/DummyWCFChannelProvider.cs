@@ -1,9 +1,8 @@
 ﻿using System;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
-using BinaryVibrance.NetworkTools.Async;
 
-namespace BVNetworkTools.Async.Test.Model
+namespace BinaryVibrance.TAPFacade.Test.Model
 {
 	public class DummyWCFChannelProvider : IWCFChannelProvider
 	{

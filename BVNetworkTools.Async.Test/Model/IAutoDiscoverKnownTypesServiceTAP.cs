@@ -4,7 +4,7 @@ using System.Reflection;
 using System.ServiceModel;
 using System.Threading.Tasks;
 
-namespace BVNetworkTools.Async.Test.Model
+namespace BinaryVibrance.TAPFacade.Test.Model
 {
 	[ServiceContract]
 	public interface IAutoDiscoverKnownTypesServiceAPM

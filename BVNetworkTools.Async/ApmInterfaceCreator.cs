@@ -4,9 +4,9 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Threading.Tasks;
-using BinaryVibrance.NetworkTools.Async.AttributeDuplicator;
+using BinaryVibrance.TAPFacade.AttributeDuplicator;
 
-namespace BinaryVibrance.NetworkTools.Async
+namespace BinaryVibrance.TAPFacade
 {
 	internal class ApmInterfaceCreator<TContract>
 	{

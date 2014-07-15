@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BinaryVibrance.NetworkTools.Async</RootNamespace>
-    <AssemblyName>BinaryVibrance.NetworkTools.Async</AssemblyName>
+    <RootNamespace>BinaryVibrance.TAPFacade</RootNamespace>
+    <AssemblyName>BinaryVibrance.TAPFacade</AssemblyName>
     <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
@@ -49,7 +49,7 @@
     <NoConfig>true</NoConfig>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>Bin\Debug\BinaryVibrance.NetworkTools.Async.xml</DocumentationFile>
+    <DocumentationFile>Bin\Debug\BinaryVibrance.TAPFacade.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -60,7 +60,7 @@
     <NoConfig>true</NoConfig>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>Bin\Release\BinaryVibrance.NetworkTools.Async.xml</DocumentationFile>
+    <DocumentationFile>Bin\Release\BinaryVibrance.TAPFacade.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>false</SignAssembly>
@@ -153,7 +153,7 @@
   </ProjectExtensions>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <PropertyGroup>
-    <PostBuildEvent>copy /Y "$(TargetDir)BinaryVibrance.NetworkTools.Async*.*" "$(SolutionDir).nuget\lib\sl40"</PostBuildEvent>
+    <PostBuildEvent>copy /Y "$(TargetDir)BinaryVibrance.TAPFacade*.*" "$(SolutionDir).nuget\lib\sl40"</PostBuildEvent>
   </PropertyGroup>
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">

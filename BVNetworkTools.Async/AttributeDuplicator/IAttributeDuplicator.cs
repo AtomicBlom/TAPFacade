@@ -2,7 +2,7 @@
 using System.Reflection;
 using System.Reflection.Emit;
 
-namespace BinaryVibrance.NetworkTools.Async.AttributeDuplicator
+namespace BinaryVibrance.TAPFacade.AttributeDuplicator
 {
 
 	/// <summary>
